@@ -1,3 +1,4 @@
+@import "bootstrap/scss/bootstrap-grid";
 /* ====================================
 // css variables
 // ==================================== */
@@ -42,3 +43,26 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(86, 61, 124);
+  border: 1px solid rgb(34, 23, 50);
+}
+
+header {
+  background-color: #000000;
+}
+
+main {
+  background-color: #252525;
+}
+
+footer {
+  background-color: #0e0e0e;
+}
