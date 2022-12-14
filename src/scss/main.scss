@@ -47,22 +47,399 @@ video {
   margin-top: 16px;
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgb(86, 61, 124);
-  border: 1px solid rgb(34, 23, 50);
+body {
+  color: white;
+  font-family: "Lao MN";
+}
+
+p {
+  font-family: "Lato";
+}
+
+img {
+  width: 100%;
 }
 
 header {
-  background-color: #000000;
+  background-image: url(/src/img/background-header.png);
+}
+
+.logo-header {
+  width: 100%;
+  margin: 90 0px 56px 0px;
+}
+
+@media (min-width: 600px) {
+  .logo-header {
+    width: 70%;
+    margin: 100 0 40px 70px;
+  }
+}
+
+.text-about-us {
+  /* Pour modifier la version small*/
+  font-size: 20px;
+  text-align: center;
+  margin: 0 10px 0 10px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 600px) {
+  /* Pour modifier la version large*/
+  .text-about-us {
+    font-size: 28px;
+    padding: 0 96px 4px 128px;
+  }
 }
 
 main {
   background-color: #252525;
 }
 
+h1 {
+  text-align: left;
+  font-size: 25px;
+  padding: 31px 76px 24px 0;
+}
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: 50px;
+    padding: 106px 0 131px 0;
+  }
+}
+
+h2 {
+  font-size: 48px;
+  padding: 14px 0 4px 0;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 20px;
+    padding: 14px 0 4px 0;
+    position: relative;
+    top: 0;
+  }
+}
+
+.décoration-speciality-one {
+  z-index: 1;
+  position: relative;
+  top: 20px;
+  left: 95px;
+}
+
+@media (max-width: 600px) {
+  .décoration-speciality-one {
+    display: none;
+  }
+}
+
+.romarin-picture {
+  position: relative;
+  bottom: 65px;
+  left: 100px;
+}
+
+@media (max-width: 600px) {
+  .romarin-picture {
+    display: none;
+  }
+}
+
+.speciality-one-picture {
+  position: relative;
+  bottom: 290px;
+}
+
+@media (max-width: 600px) {
+  .speciality-one-picture {
+    position: relative;
+    top: 0;
+  }
+}
+
+.title-speciality-Clay {
+  position: relative;
+  bottom: 440px;
+}
+
+@media (max-width: 600px) {
+  .title-speciality-Clay {
+    position: relative;
+    top: 0;
+  }
+}
+
+.text-speciality-Clay {
+  font-size: 30px;
+  padding-bottom: 26px;
+  position: relative;
+  bottom: 440px;
+}
+
+@media (max-width: 600px) {
+  .text-speciality-Clay {
+    font-size: 17px;
+    padding-bottom: 26px;
+    position: relative;
+    top: 0;
+  }
+}
+
+.décoration-speciality-two {
+  z-index: 2;
+  position: relative;
+  bottom: 180px;
+  right: 60px;
+}
+
+@media (max-width: 600px) {
+  .décoration-speciality-two {
+    display: none;
+  }
+}
+
+.lemon-picture {
+  z-index: 1;
+  position: relative;
+  bottom: 300px;
+}
+
+@media (max-width: 600px) {
+  .lemon-picture {
+    display: none;
+  }
+}
+
+.speciality-two-picture {
+  position: relative;
+  bottom: 470px;
+}
+
+@media (max-width: 600px) {
+  .speciality-two-picture {
+    position: relative;
+    top: 0;
+  }
+}
+
+.title-speciality-Red {
+  position: relative;
+  bottom: 610px;
+}
+
+@media (max-width: 600px) {
+  .title-speciality-Red {
+    position: relative;
+    top: 0;
+  }
+}
+
+.text-speciality-Red {
+  font-size: 30px;
+  padding-bottom: 26px;
+  position: relative;
+  bottom: 610px;
+}
+
+@media (max-width: 600px) {
+  .text-speciality-Red {
+    font-size: 17px;
+    padding-bottom: 26px;
+    position: relative;
+    top: 0;
+  }
+}
+
+.décoration-speciality-three {
+  z-index: 1;
+  position: relative;
+  bottom: 350px;
+}
+
+@media (max-width: 600px) {
+  .décoration-speciality-three {
+    display: none;
+  }
+}
+
+.orange-picture {
+  position: relative;
+  bottom: 480px;
+}
+
+@media (max-width: 600px) {
+  .orange-picture {
+    display: none;
+  }
+}
+
+.speciality-three-picture {
+  position: relative;
+  bottom: 700px;
+}
+
+@media (max-width: 600px) {
+  .speciality-three-picture {
+    position: relative;
+    top: 0;
+  }
+}
+
+.title-speciality-Frolicking {
+  position: relative;
+  bottom: 800px;
+}
+
+@media (max-width: 600px) {
+  .title-speciality-Frolicking {
+    position: relative;
+    top: 0;
+  }
+}
+
+.text-speciality-Frolicking {
+  font-size: 30px;
+  padding-bottom: 26px;
+  position: relative;
+  bottom: 800px;
+}
+
+@media (max-width: 600px) {
+  .text-speciality-Frolicking {
+    font-size: 17px;
+    padding-bottom: 26px;
+    position: relative;
+    top: 0;
+  }
+}
+
+hr {
+  position: relative;
+  bottom: 480px;
+  display: block;
+  background-color: #ff913b;
+  width: 2px;
+}
+
+@media (max-width: 600px) {
+  hr {
+    position: relative;
+    top: 0;
+  }
+}
+
+.slogan {
+  position: relative;
+  bottom: 490px;
+  font-family: "Lao MN";
+  font-size: 48px;
+  text-align: center;
+  padding: 95px 30px 96px 30px;
+}
+
+@media (max-width: 600px) {
+  .slogan {
+    position: relative;
+    top: 0;
+    font-family: "Lao MN";
+    font-size: 20px;
+    text-align: center;
+    padding: 35px 30px 58px 30px;
+  }
+}
+
+h3 {
+  position: relative;
+  bottom: 490px;
+  font-size: 45px;
+  margin-left: 30px;
+}
+
+@media (max-width: 600px) {
+  h3 {
+    position: relative;
+    top: 0;
+    font-size: 19px;
+    margin-left: 30px;
+  }
+}
+
+.reservation {
+  background-image: url(/src/img/background\ reservation.png);
+  font-size: 35px;
+  position: relative;
+  bottom: 270px;
+}
+
+@media (max-width: 600px) {
+  .reservation {
+    position: relative;
+    top: 0;
+    font-size: 35px;
+  }
+}
+
+.button {
+  border: white;
+  margin: 136px 40px;
+}
+
+.button h4 {
+  font-size: 17px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+.title-menu {
+  padding: 0 20px 26px 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+.text-menu {
+  display: inline;
+}
+
+.price {
+  font-family: "Lao MN";
+  color: #ff913b;
+  font-weight: bold;
+}
+
+.button-menu {
+  position: relative;
+  right: 70px;
+  margin-bottom: 104px;
+}
+
+@media (max-width: 600px) {
+  .button-menu {
+    position: relative;
+    left: 70px;
+    right: 10px;
+    margin-bottom: 80px;
+  }
+}
+
 footer {
   background-color: #0e0e0e;
+  padding: 32px 29px;
+}
+
+.media {
+  width: 70%;
+}
+
+@media (max-width: 600px) {
+  .media {
+    width: 100%;
+  }
 }
