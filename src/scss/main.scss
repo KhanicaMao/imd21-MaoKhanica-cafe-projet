@@ -370,21 +370,23 @@ h3 {
 
 .reservation {
   background-image: url(/src/img/background\ reservation.png);
-  font-size: 35px;
   position: relative;
   bottom: 270px;
+  padding: 100px 200px;
 }
 
 @media (max-width: 600px) {
   .reservation {
     position: relative;
     top: 0;
-    font-size: 35px;
+    margin: 59px 0 34px 0;
+    padding: 100px;
   }
 }
 
 .button {
   border: white;
+  border-radius: 50%;
   margin: 136px 40px;
 }
 
@@ -393,25 +395,59 @@ h3 {
 }
 
 h4 {
-  font-size: 28px;
+  font-size: 55px;
+}
+
+@media (max-width: 600px) {
+  h4 {
+    font-size: 28px;
+  }
 }
 
 .title-menu {
-  padding: 0 20px 26px 20px;
+  padding: 33px 0px 68px 0px;
+}
+
+@media (max-width: 600px) {
+  .title-menu {
+    padding: 0 20px 26px 20px;
+  }
 }
 
 h5 {
-  font-size: 18px;
+  font-size: 30px;
+}
+
+@media (max-width: 600px) {
+  h5 {
+    font-size: 18px;
+  }
 }
 
 .text-menu {
-  display: inline;
+  font-size: 23px;
+}
+
+@media (max-width: 600px) {
+  .text-menu {
+    font-size: 15px;
+  }
 }
 
 .price {
   font-family: "Lao MN";
   color: #ff913b;
   font-weight: bold;
+  font-size: 30px;
+}
+
+@media (max-width: 600px) {
+  .price {
+    font-family: "Lao MN";
+    color: #ff913b;
+    font-weight: bold;
+    font-size: 15px;
+  }
 }
 
 .button-menu {
@@ -431,15 +467,37 @@ h5 {
 
 footer {
   background-color: #0e0e0e;
-  padding: 32px 29px;
+  padding: 32px 0;
+}
+
+.title-contact {
+  margin-top: 45px;
+}
+
+@media (max-width: 600px) {
+  .title-contact {
+    margin-top: 0px;
+  }
 }
 
 .media {
   width: 70%;
+  padding-bottom: 108px;
 }
 
 @media (max-width: 600px) {
   .media {
     width: 100%;
+  }
+}
+
+.signature {
+  font-size: 20px;
+  font-family: "Lao MN";
+}
+
+@media (max-width: 600px) {
+  .signature {
+    font-size: 12px;
   }
 }
