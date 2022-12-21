@@ -47,6 +47,10 @@ video {
   margin-top: 16px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: white;
   font-family: "Lao MN";
@@ -60,19 +64,33 @@ img {
   width: 100%;
 }
 
+a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+@media (min-width: 600px) {
+  a {
+    font-size: 24px;
+    text-decoration: none;
+  }
+}
+
 header {
   background-image: url(/src/img/background-header.png);
+  background-size: cover;
+  padding-top: 32px;
 }
 
 .logo-header {
   width: 100%;
-  margin: 90 0px 56px 0px;
+  margin: 98 0px 56px 0px;
 }
 
 @media (min-width: 600px) {
   .logo-header {
-    width: 70%;
-    margin: 100 0 40px 70px;
+    width: 80%;
+    margin: 137 0 91px 50px;
   }
 }
 
@@ -80,20 +98,20 @@ header {
   /* Pour modifier la version small*/
   font-size: 20px;
   text-align: center;
-  margin: 0 10px 0 10px;
-  padding-bottom: 10px;
+  padding: 0 10px 10px 10px;
 }
 
 @media (min-width: 600px) {
   /* Pour modifier la version large*/
   .text-about-us {
-    font-size: 28px;
-    padding: 0 96px 4px 128px;
+    font-size: 29px;
+    text-align: center;
+    padding: 0 128px 39px 96px;
   }
 }
 
 main {
-  background-color: #252525;
+  background-color: #191919;
 }
 
 h1 {
@@ -105,7 +123,7 @@ h1 {
 @media (min-width: 600px) {
   h1 {
     font-size: 50px;
-    padding: 106px 0 131px 0;
+    padding: 108px 0 131px 0;
   }
 }
 
@@ -122,6 +140,12 @@ h2 {
     position: relative;
     top: 0;
   }
+}
+
+.specialities-1 {
+  max-width: 1000px;
+  background-color: #0e0e0e;
+  margin-bottom: 20px;
 }
 
 .décoration-speciality-one {
@@ -182,11 +206,16 @@ h2 {
 
 @media (max-width: 600px) {
   .text-speciality-Clay {
-    font-size: 17px;
+    font-size: 18px;
     padding-bottom: 26px;
     position: relative;
     top: 0;
   }
+}
+
+.specialities-2 {
+  background-color: #0e0e0e;
+  margin-bottom: 20px;
 }
 
 .décoration-speciality-two {
@@ -254,6 +283,12 @@ h2 {
   }
 }
 
+.specialities-3 {
+  display: block;
+  background-color: #0e0e0e;
+  margin-bottom: 20px;
+}
+
 .décoration-speciality-three {
   z-index: 1;
   position: relative;
@@ -303,7 +338,7 @@ h2 {
 
 .text-speciality-Frolicking {
   font-size: 30px;
-  padding-bottom: 26px;
+  padding-bottom: 48px;
   position: relative;
   bottom: 800px;
 }
@@ -311,22 +346,25 @@ h2 {
 @media (max-width: 600px) {
   .text-speciality-Frolicking {
     font-size: 17px;
-    padding-bottom: 26px;
+    padding-bottom: 28px;
     position: relative;
     top: 0;
   }
 }
 
 hr {
+  height: 3px;
+  background-color: #ff913b;
+  border: none;
   position: relative;
   bottom: 480px;
-  display: block;
-  background-color: #ff913b;
-  width: 2px;
 }
 
 @media (max-width: 600px) {
   hr {
+    height: 3px;
+    background-color: #ff913b;
+    border: none;
     position: relative;
     top: 0;
   }
@@ -338,7 +376,7 @@ hr {
   font-family: "Lao MN";
   font-size: 48px;
   text-align: center;
-  padding: 95px 30px 96px 30px;
+  padding-top: 39px;
 }
 
 @media (max-width: 600px) {
@@ -348,7 +386,19 @@ hr {
     font-family: "Lao MN";
     font-size: 20px;
     text-align: center;
-    padding: 35px 30px 58px 30px;
+    padding-top: 15px;
+  }
+}
+
+.slogan span {
+  color: white;
+  font-size: 80px;
+}
+
+@media (max-width: 600px) {
+  .slogan span {
+    color: white;
+    font-size: 40px;
   }
 }
 
@@ -363,35 +413,63 @@ h3 {
   h3 {
     position: relative;
     top: 0;
-    font-size: 19px;
+    font-size: 20px;
     margin-left: 30px;
   }
 }
 
-.reservation {
+.reservation-background {
   background-image: url(/src/img/background\ reservation.png);
+  background-size: cover;
+  background-position: center;
   position: relative;
-  bottom: 270px;
-  padding: 100px 200px;
+  bottom: 210px;
+  width: 1024px;
+  height: 899px;
 }
 
 @media (max-width: 600px) {
-  .reservation {
+  .reservation-background {
+    background-image: url(/src/img/background\ reservation.png);
+    background-size: cover;
+    background-position: center;
     position: relative;
     top: 0;
     margin: 59px 0 34px 0;
-    padding: 100px;
+    width: 517px;
+    height: 460px;
   }
 }
 
-.button {
-  border: white;
-  border-radius: 50%;
-  margin: 136px 40px;
+.reservation img {
+  width: 100%;
+  position: relative;
+  top: 400px;
+  left: 30px;
 }
 
-.button h4 {
-  font-size: 17px;
+@media (max-width: 600px) {
+  .reservation img {
+    width: 75%;
+    position: relative;
+    top: 220px;
+    left: 149px;
+  }
+}
+
+.card-menu {
+  background-image: url(/src/img/background\ menu.png);
+  background-color: #0e0e0e;
+  border-radius: 50px;
+}
+
+@media (max-width: 600px) {
+  .card-menu {
+    background-image: url(/src/img/background\ menu.png);
+    background-size: cover;
+    background-color: #0e0e0e;
+    border-radius: 50px;
+  }
 }
 
 h4 {
@@ -401,44 +479,69 @@ h4 {
 @media (max-width: 600px) {
   h4 {
     font-size: 28px;
+    margin: 4px 0 26px 0;
+  }
+}
+
+span {
+  color: #ff913b;
+  font-size: 70px;
+}
+
+@media (max-width: 600px) {
+  span {
+    font-size: 40px;
   }
 }
 
 .title-menu {
-  padding: 33px 0px 68px 0px;
+  padding: 33px 0px 68px 20px;
 }
 
 @media (max-width: 600px) {
   .title-menu {
-    padding: 0 20px 26px 20px;
+    padding: 4px 0px 26px 128px;
   }
 }
 
 h5 {
-  font-size: 30px;
+  font-size: 35px;
+  margin-bottom: 28px;
 }
 
 @media (max-width: 600px) {
   h5 {
     font-size: 18px;
+    margin-left: 11px;
+    margin-bottom: 0px;
   }
 }
 
 .text-menu {
-  font-size: 23px;
+  font-size: 25px;
+  margin-bottom: 94px;
 }
 
 @media (max-width: 600px) {
   .text-menu {
     font-size: 15px;
+    margin-left: 11px;
+    margin-bottom: 18px;
   }
+}
+
+.last-text-menu {
+  padding-bottom: 32px;
+  font-size: 15px;
+  margin-left: 11px;
+  margin-bottom: 18px;
 }
 
 .price {
   font-family: "Lao MN";
   color: #ff913b;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 @media (max-width: 600px) {
@@ -451,17 +554,23 @@ h5 {
 }
 
 .button-menu {
+  z-index: 1;
+  width: 100%;
   position: relative;
-  right: 70px;
+  bottom: 100px;
+  left: 10px;
   margin-bottom: 104px;
 }
 
 @media (max-width: 600px) {
   .button-menu {
+    z-index: 1;
+    width: 100%;
     position: relative;
-    left: 70px;
+    bottom: 70px;
+    left: 80px;
     right: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
   }
 }
 
@@ -471,12 +580,28 @@ footer {
 }
 
 .title-contact {
-  margin-top: 45px;
+  margin: 45px 0 41px 0;
+  position: relative;
+  right: 75px;
 }
 
 @media (max-width: 600px) {
   .title-contact {
-    margin-top: 0px;
+    margin: 35px 0 21px 0;
+    position: relative;
+    right: 0;
+  }
+}
+
+.text-contact p {
+  font-family: "Lao MN";
+  font-size: 25px;
+}
+
+@media (max-width: 600px) {
+  .text-contact p {
+    font-family: "Lao MN";
+    font-size: 13px;
   }
 }
 
@@ -488,6 +613,7 @@ footer {
 @media (max-width: 600px) {
   .media {
     width: 100%;
+    padding-bottom: 0px;
   }
 }
 
@@ -498,6 +624,18 @@ footer {
 
 @media (max-width: 600px) {
   .signature {
-    font-size: 12px;
+    font-size: 10px;
+    position: relative;
+    bottom: 25px;
+  }
+}
+
+.line-footer {
+  width: 2.1px;
+}
+
+@media (max-width: 600px) {
+  .line-footer {
+    width: 1.3px;
   }
 }

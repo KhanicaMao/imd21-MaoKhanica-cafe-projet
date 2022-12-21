@@ -7,20 +7,26 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <header>
+    <header id="home">
       <div class="container">
         <div class="row">
-          <div class="col-0 col-lg-2">Home</div>
-          <div class="col-0 col-lg-3">Specialities</div>
-          <div class="col-0 col-lg-2">Menu</div>
-          <div class="col-0 col-lg-3">Reservation</div>
-          <div class="col-0 col-lg-2">Contact</div>
+          <div class="col-0 col-md-2 col-lg-2"><a href="#home">Home</a></div>
+          <div class="col-0 col-md-3 col-lg-3">
+            <a href="#specialities">Specialities</a>
+          </div>
+          <div class="col-0 col-md-2 col-lg-2"><a href="#menu">Menu</a></div>
+          <div class="col-0 col-md-3 col-lg-3">
+            <a href="#reservation">Reservation</a>
+          </div>
+          <div class="col-0 col-md-2 col-lg-2">
+            <a href="#contact">Contact</a>
+          </div>
         </div>
         <div class="row">
-          <div class="col-4 offset-4 col-lg-4 offset-lg-4">
+          <div class="col-4 offset-4 col-lg-4 offset-lg-4" id="button-scroll">
             <img class="logo-header" src="/src/img/logo.png" alt="logo" />
           </div>
-          <div class="col-10 offset-1 col-lg-10">
+          <div class="col-10 offset-1 col-lg-11">
             <p class="text-about-us">
               The Atlantis bar welcomes you to a warm and joyful environment.
               Take a seat with us and relax
@@ -33,110 +39,120 @@
       <div class="container">
         <div class="row">
           <div class="col-10 offset-1 col-lg-9">
-            <h1>Discover our specialities</h1>
+            <h1 id="specialities">Discover our specialities</h1>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 offset-md-3 col-lg-3 offset-lg-6">
-            <img
-              class="décoration-speciality-one"
-              src="/src/img/Rectangle.png"
-              alt="décoration"
-            />
-          </div>
-          <div class="col-lg-3 offset-lg-7">
-            <img
-              class="romarin-picture"
-              src="/src/img/romarin.png"
-              alt="picture-romarin"
-            />
-          </div>
-          <div class="col-10 offset-1 col-lg-6 offset-lg-1">
-            <img
-              class="speciality-one-picture"
-              src="/src/img/speciality1.png"
-              alt="speciality-one"
-            />
-          </div>
-          <div class="col-4 offset-1 col-lg-4 offset-lg-5">
-            <h2 class="title-speciality-Clay">Clay Prince</h2>
-          </div>
-          <div class="col-9 offset-1 col-lg-7 offset-lg-5">
-            <p class="text-speciality-Clay">
-              Discover our brand new coco lemon passion fruit cocktail available
-              now. Are you brave enough to take a sip ?
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 offset-lg-3">
-            <img
-              class="décoration-speciality-two"
-              src="/src/img/Rectangle.png"
-              alt="décoration"
-            />
-          </div>
-          <div class="col-lg-3 offset-lg-4">
-            <img
-              class="lemon-picture"
-              src="/src/img/citron.png"
-              alt="picture-lemon"
-            />
-          </div>
-          <div class="col-10 offset-1 col-lg-6 offset-lg-6">
-            <img
-              class="speciality-two-picture"
-              src="/src/img/speciality2.png"
-              alt="speciality-two"
-            />
-          </div>
-          <div class="col-5 offset-1 col-lg-6 offset-lg-1">
-            <h2 class="title-speciality-Red">Red dead of night</h2>
-          </div>
-          <div class="col-9 offset-1 col-lg-7 offset-lg-1">
-            <p class="text-speciality-Red">
-              Discover our brand new coco lemon passion fruit cocktail available
-              now. Are you brave enough to take a sip ?
-            </p>
+          <div class="specialities-1">
+            <div class="col-md-6 offset-md-3 col-lg-3 offset-lg-6">
+              <img
+                class="décoration-speciality-one"
+                src="/src/img/Rectangle.png"
+                alt="décoration"
+              />
+            </div>
+            <div class="col-lg-3 offset-lg-7">
+              <img
+                class="romarin-picture"
+                src="/src/img/romarin.png"
+                alt="picture-romarin"
+              />
+            </div>
+            <div class="col-10 offset-1 col-lg-6 offset-lg-1">
+              <img
+                class="speciality-one-picture"
+                src="/src/img/speciality1.png"
+                alt="speciality-one"
+              />
+            </div>
+            <div class="col-4 offset-1 col-lg-4 offset-lg-5">
+              <h2 class="title-speciality-Clay">Clay Prince</h2>
+            </div>
+            <div class="col-9 offset-1 col-lg-7 offset-lg-5">
+              <p class="text-speciality-Clay">
+                Discover our brand new coco lemon passion fruit cocktail
+                available now. Are you brave enough to take a sip ?
+              </p>
+            </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-3 offset-lg-6">
-            <img
-              class="décoration-speciality-three"
-              src="/src/img/Rectangle.png"
-              alt="décoration"
-            />
+          <div class="specialities-2">
+            <div class="col-lg-3 offset-lg-3">
+              <img
+                class="décoration-speciality-two"
+                src="/src/img/Rectangle.png"
+                alt="décoration"
+              />
+            </div>
+            <div class="col-lg-3 offset-lg-4">
+              <img
+                class="lemon-picture"
+                src="/src/img/citron.png"
+                alt="picture-lemon"
+              />
+            </div>
+            <div class="col-10 offset-1 col-lg-6 offset-lg-6">
+              <img
+                class="speciality-two-picture"
+                src="/src/img/speciality2.png"
+                alt="speciality-two"
+              />
+            </div>
+            <div class="col-5 offset-1 col-lg-6 offset-lg-2">
+              <h2 class="title-speciality-Red">Red dead of night</h2>
+            </div>
+            <div class="col-9 offset-1 col-lg-7 offset-lg-2">
+              <p class="text-speciality-Red">
+                Discover our brand new coco lemon passion fruit cocktail
+                available now. Are you brave enough to take a sip ?
+              </p>
+            </div>
           </div>
-          <div class="col-lg-4 offset-lg-8">
-            <img
-              class="orange-picture"
-              src="/src/img/orange.png"
-              alt="picture-orange"
-            />
-          </div>
-          <div class="col-10 offset-1 col-lg-6 offset-lg-1">
-            <img
-              class="speciality-three-picture"
-              src="/src/img/speciality 3.png"
-              alt="speciality-three"
-            />
-          </div>
-          <div class="col-6 offset-1 col-lg-7 offset-lg-5">
-            <h2 class="title-speciality-Frolicking">The Frolicking flames</h2>
-          </div>
-          <div class="col-9 offset-1 col-lg-7 offset-lg-5">
-            <p class="text-speciality-Frolicking">
-              Discover our brand new coco lemon passion fruit cocktail available
-              now. Are you brave enough to take a sip ?
-            </p>
+        </div>
+        <div class="row">
+          <div class="specialities-3">
+            <div class="col-lg-3 offset-lg-6">
+              <img
+                class="décoration-speciality-three"
+                src="/src/img/Rectangle.png"
+                alt="décoration"
+              />
+            </div>
+            <div class="col-lg-4 offset-lg-8">
+              <img
+                class="orange-picture"
+                src="/src/img/orange.png"
+                alt="picture-orange"
+              />
+            </div>
+            <div class="col-10 offset-1 col-lg-6 offset-lg-1">
+              <img
+                class="speciality-three-picture"
+                src="/src/img/speciality 3.png"
+                alt="speciality-three"
+              />
+            </div>
+            <div class="col-6 offset-1 col-lg-7 offset-lg-5">
+              <h2 class="title-speciality-Frolicking">The Frolicking flames</h2>
+            </div>
+            <div class="col-9 offset-1 col-lg-7 offset-lg-5">
+              <p class="text-speciality-Frolicking">
+                Discover our brand new coco lemon passion fruit cocktail
+                available now. Are you brave enough to take a sip ?
+              </p>
+            </div>
           </div>
         </div>
         <div class="row">
           <hr />
           <div class="col-10 offset-1 col-lg-8 offset-lg-2">
             <p class="slogan">
+              <span>”</span>
+              <br />
               The world is full of lost ballads just waiting to be rediscovered.
+              <br />
+              <span>_</span>
             </p>
           </div>
           <div class="col-2 offset-8 col-lg-2 offset-lg-9">
@@ -144,67 +160,79 @@
           </div>
           <hr />
         </div>
+      </div>
+      <div class="container">
         <div class="row">
-          <div class="col-4 offset-3 col-lg-4 offset-lg-4">
-            <div class="reservation">
-              <div class="button">
-                <h4>RESESRVATION</h4>
+          <div class="reservation-background">
+            <div class="col-6 col-lg-4 offset-lg-4">
+              <div class="reservation" id="reservation">
+                <img
+                  src="../src/img/button-reservation.png"
+                  alt="button-reservation"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="card-menu">
+            <div class="col-10 offset-1 col-lg-5 offset-lg-4">
+              <h4 class="title-menu" id="menu">
+                <span>=</span> MENU <span>=</span>
+              </h4>
+            </div>
+            <div class="row">
+              <div class="col-5 col-lg-4 offset-lg-1">
+                <h5>The Prince of Frost</h5>
+              </div>
+              <div class="col-2 offset-4 col-lg-1 offset-lg-4">
+                <p class="price">9.00$</p>
+              </div>
+              <div class="col-5 col-lg-5 offset-lg-1">
+                <p class="text-menu">
+                  lychee & citrus liqueur homemade iced tea - lemon juice
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-5 col-lg-4 offset-lg-1">
+                <h5>The Moongrass's Enlightenment</h5>
+              </div>
+              <div class="col-3 offset-4 col-lg-1 offset-lg-4">
+                <p class="price">10.00$</p>
+              </div>
+              <div class="col-5 col-lg-6 offset-lg-1">
+                <p class="text-menu">
+                  st. lawrence gin - citrus syrup with rosemary grapefruit juice
+                  spawn - tonic
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-5 col-lg-4 offset-lg-1">
+                <h5>Frostflake Heron</h5>
+              </div>
+              <div class="col-2 offset-4 col-lg-1 offset-lg-4">
+                <p class="price">9.00$</p>
+              </div>
+              <div class="col-5 col-lg-6 offset-lg-1">
+                <p class="last-text-menu">
+                  rye whiskey- yuzu- bay leaf with a touch of pepper syrup
+                </p>
               </div>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-2 offset-4 col-lg-2 offset-lg-5">
-            <h4 class="title-menu">MENU</h4>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-5 col-lg-4">
-            <h5>The Prince of Frost</h5>
-          </div>
-          <div class="col-2 offset-4 col-lg-1 offset-lg-5">
-            <p class="price">9.00$</p>
-          </div>
-          <div class="col-5 col-lg-5">
-            <p class="text-menu">
-              lychee & citrus liqueur homemade iced tea - lemon juice
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-5 col-lg-4">
-            <h5>The Moongrass's Enlightenment</h5>
-          </div>
-          <div class="col-3 offset-4 col-lg-1 offset-lg-5">
-            <p class="price">10.00$</p>
-          </div>
-          <div class="col-5 col-lg-5">
-            <p class="text-menu">
-              st. lawrence gin - citrus syrup with rosemary grapefruit juice
-              spawn - tonic
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-5 col-lg-4">
-            <h5>Frostflake Heron</h5>
-          </div>
-          <div class="col-2 offset-4 col-lg-1 offset-lg-5">
-            <p class="price">9.00$</p>
-          </div>
-          <div class="col-5 col-lg-4">
-            <p class="text-menu">
-              rye whiskey- yuzu- bay leaf with a touch of pepper syrup
-            </p>
-          </div>
-        </div>
-        <div class="row">
           <div class="col-2 offset-8 col-lg-2 offset-lg-10">
-            <img
-              class="button-menu"
-              src="/src/img/Rectangle.png"
-              alt="button"
-            />
+            <a href="#button-scroll"
+              ><img
+                class="button-menu"
+                src="/src/img/button up.png"
+                alt="button"
+            /></a>
           </div>
         </div>
       </div>
@@ -213,20 +241,27 @@
       <div class="container">
         <div class="row">
           <div class="col-5 offset-1 col-lg-5">
-            <h4 class="title-contact">Contact Us</h4>
+            <h4 class="title-contact" id="contact">Contact Us</h4>
           </div>
         </div>
         <div class="row">
-          <div class="col-6 offset-1 col-lg-4 offset-lg-1">
-            <p>2 Catherine Ave, Brooklyn</p>
-            <br />
-            <p>NEW YORK 11207</p>
-            <br />
-            <p>647-215-2937</p>
-            <br />
-            <p>atlantis.rest@hotmail.com</p>
+          <div class="col-5 offset-1 col-lg-4">
+            <div class="text-contact">
+              <p>2 Catherine Ave, Brooklyn</p>
+              <br />
+              <p>NEW YORK 11207</p>
+              <br />
+              <p>647-215-2937</p>
+              <br />
+              <p>atlantis.rest@hotmail.com</p>
+            </div>
           </div>
-          <div class="col-2 offset- col-lg-2 offset-lg-2">
+          <div class="col-1 col-lg-1 offset-lg-1">
+            <div class="line-footer">
+              <img src="/src/img/line-footer.png" alt="line" />
+            </div>
+          </div>
+          <div class="col-2 col-lg-2">
             <img
               class="media"
               src="/src/img/logo instagram.png"
@@ -240,8 +275,8 @@
               alt="logo-facebook"
             />
           </div>
-          <div class="col-4 offset-7 col-lg-3 offset-lg-7">
-            <p class="signature">New Bistro 2022</p>
+          <div class="col-2 offset-7 col-lg-3 offset-lg-7">
+            <p class="signature">©New Bistro 2022</p>
           </div>
         </div>
       </div>
