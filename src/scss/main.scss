@@ -29,6 +29,24 @@ body {
   line-height: 1.25;
 }
 
+@font-face {
+  font-family: "Lao MN";
+  src: url("/src/fonts/LaoMN.woff") format("woff"),
+    url("/src/fonts/LaoMN.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("/src/fonts/Lato-Regular.woff") format("woff"),
+    url("/src/fonts/Lato-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  src: url("/src/fonts/Lato-Light.woff") format("woff"),
+    url("/src/fonts/Lato-Light.woff2") format("woff2");
+}
+
 a {
   color: inherit;
 }
