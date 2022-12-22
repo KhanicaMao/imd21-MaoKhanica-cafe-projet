@@ -69,7 +69,7 @@ a {
   text-decoration: none;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   a {
     font-size: 24px;
     text-decoration: none;
@@ -82,12 +82,32 @@ header {
   padding-top: 32px;
 }
 
+.nav-large {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .nav-large {
+    display: inline;
+  }
+}
+
+.menu-mobile {
+  display: inline;
+}
+
+@media (min-width: 768px) {
+  .menu-mobile {
+    display: none;
+  }
+}
+
 .logo-header {
   width: 100%;
   margin: 98 0px 56px 0px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .logo-header {
     width: 80%;
     margin: 137 0 91px 50px;
@@ -95,34 +115,34 @@ header {
 }
 
 .text-about-us {
-  /* Pour modifier la version small*/
   font-size: 20px;
+  font-weight: lighter;
   text-align: center;
   padding: 0 10px 10px 10px;
 }
 
-@media (min-width: 600px) {
-  /* Pour modifier la version large*/
+@media (min-width: 768px) {
   .text-about-us {
     font-size: 29px;
+    font-weight: lighter;
     text-align: center;
     padding: 0 128px 39px 96px;
   }
 }
 
 main {
-  background-color: #191919;
+  background-color: #313030;
 }
 
 h1 {
   text-align: left;
-  font-size: 25px;
-  padding: 31px 76px 24px 0;
+  font-size: 23px;
+  padding: 31px 0 24px 0;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   h1 {
-    font-size: 50px;
+    font-size: 49px;
     padding: 108px 0 131px 0;
   }
 }
@@ -133,7 +153,7 @@ h2 {
   position: relative;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   h2 {
     font-size: 20px;
     padding: 14px 0 4px 0;
@@ -143,9 +163,15 @@ h2 {
 }
 
 .specialities-1 {
-  max-width: 1000px;
-  background-color: #0e0e0e;
-  margin-bottom: 20px;
+  background-image: url(/src/img/background-one.png);
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .specialities-1 {
+    background-image: none;
+    background-color: #191919;
+  }
 }
 
 .décoration-speciality-one {
@@ -155,7 +181,7 @@ h2 {
   left: 95px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .décoration-speciality-one {
     display: none;
   }
@@ -167,7 +193,7 @@ h2 {
   left: 100px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .romarin-picture {
     display: none;
   }
@@ -178,7 +204,7 @@ h2 {
   bottom: 290px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .speciality-one-picture {
     position: relative;
     top: 0;
@@ -190,7 +216,7 @@ h2 {
   bottom: 440px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .title-speciality-Clay {
     position: relative;
     top: 0;
@@ -204,7 +230,7 @@ h2 {
   bottom: 440px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .text-speciality-Clay {
     font-size: 18px;
     padding-bottom: 26px;
@@ -214,8 +240,15 @@ h2 {
 }
 
 .specialities-2 {
-  background-color: #0e0e0e;
-  margin-bottom: 20px;
+  background-image: url(/src/img/background-one.png);
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .specialities-2 {
+    background-image: none;
+    background-color: #191919;
+  }
 }
 
 .décoration-speciality-two {
@@ -225,7 +258,7 @@ h2 {
   right: 60px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .décoration-speciality-two {
     display: none;
   }
@@ -237,7 +270,7 @@ h2 {
   bottom: 300px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .lemon-picture {
     display: none;
   }
@@ -248,7 +281,7 @@ h2 {
   bottom: 470px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .speciality-two-picture {
     position: relative;
     top: 0;
@@ -260,7 +293,7 @@ h2 {
   bottom: 610px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .title-speciality-Red {
     position: relative;
     top: 0;
@@ -274,7 +307,7 @@ h2 {
   bottom: 610px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .text-speciality-Red {
     font-size: 17px;
     padding-bottom: 26px;
@@ -284,9 +317,20 @@ h2 {
 }
 
 .specialities-3 {
-  display: block;
-  background-color: #0e0e0e;
-  margin-bottom: 20px;
+  background-image: url(/src/img/background-one.png);
+  background-size: cover;
+  position: relative;
+  bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .specialities-3 {
+    background-image: none;
+    background-color: #191919;
+    position: relative;
+    top: 0;
+    margin-bottom: 50px;
+  }
 }
 
 .décoration-speciality-three {
@@ -295,7 +339,7 @@ h2 {
   bottom: 350px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .décoration-speciality-three {
     display: none;
   }
@@ -306,7 +350,7 @@ h2 {
   bottom: 480px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .orange-picture {
     display: none;
   }
@@ -317,7 +361,7 @@ h2 {
   bottom: 700px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .speciality-three-picture {
     position: relative;
     top: 0;
@@ -329,7 +373,7 @@ h2 {
   bottom: 800px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .title-speciality-Frolicking {
     position: relative;
     top: 0;
@@ -343,7 +387,7 @@ h2 {
   bottom: 800px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .text-speciality-Frolicking {
     font-size: 17px;
     padding-bottom: 28px;
@@ -360,7 +404,7 @@ hr {
   bottom: 480px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   hr {
     height: 3px;
     background-color: #ff913b;
@@ -379,7 +423,7 @@ hr {
   padding-top: 39px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .slogan {
     position: relative;
     top: 0;
@@ -395,7 +439,7 @@ hr {
   font-size: 80px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .slogan span {
     color: white;
     font-size: 40px;
@@ -409,7 +453,7 @@ h3 {
   margin-left: 30px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   h3 {
     position: relative;
     top: 0;
@@ -428,7 +472,7 @@ h3 {
   height: 899px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .reservation-background {
     background-image: url(/src/img/background\ reservation.png);
     background-size: cover;
@@ -441,15 +485,14 @@ h3 {
   }
 }
 
-.reservation img {
+.reservation-background img {
   width: 100%;
   position: relative;
   top: 400px;
-  left: 30px;
 }
 
-@media (max-width: 600px) {
-  .reservation img {
+@media (max-width: 768px) {
+  .reservation-background img {
     width: 75%;
     position: relative;
     top: 220px;
@@ -463,7 +506,7 @@ h3 {
   border-radius: 50px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .card-menu {
     background-image: url(/src/img/background\ menu.png);
     background-size: cover;
@@ -476,7 +519,7 @@ h4 {
   font-size: 55px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   h4 {
     font-size: 28px;
     margin: 4px 0 26px 0;
@@ -488,7 +531,7 @@ span {
   font-size: 70px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   span {
     font-size: 40px;
   }
@@ -498,7 +541,7 @@ span {
   padding: 33px 0px 68px 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .title-menu {
     padding: 4px 0px 26px 128px;
   }
@@ -509,7 +552,7 @@ h5 {
   margin-bottom: 28px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   h5 {
     font-size: 18px;
     margin-left: 11px;
@@ -522,7 +565,7 @@ h5 {
   margin-bottom: 94px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .text-menu {
     font-size: 15px;
     margin-left: 11px;
@@ -531,10 +574,19 @@ h5 {
 }
 
 .last-text-menu {
-  padding-bottom: 32px;
-  font-size: 15px;
+  padding-bottom: 125px;
+  font-size: 25px;
   margin-left: 11px;
   margin-bottom: 18px;
+}
+
+@media (max-width: 768px) {
+  .last-text-menu {
+    padding-bottom: 32px;
+    font-size: 15px;
+    margin-left: 11px;
+    margin-bottom: 18px;
+  }
 }
 
 .price {
@@ -544,7 +596,7 @@ h5 {
   font-size: 35px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .price {
     font-family: "Lao MN";
     color: #ff913b;
@@ -562,7 +614,7 @@ h5 {
   margin-bottom: 104px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .button-menu {
     z-index: 1;
     width: 100%;
@@ -585,7 +637,7 @@ footer {
   right: 75px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .title-contact {
     margin: 35px 0 21px 0;
     position: relative;
@@ -598,7 +650,7 @@ footer {
   font-size: 25px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .text-contact p {
     font-family: "Lao MN";
     font-size: 13px;
@@ -610,7 +662,7 @@ footer {
   padding-bottom: 108px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .media {
     width: 100%;
     padding-bottom: 0px;
@@ -622,7 +674,7 @@ footer {
   font-family: "Lao MN";
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .signature {
     font-size: 10px;
     position: relative;
@@ -634,7 +686,7 @@ footer {
   width: 2.1px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .line-footer {
     width: 1.3px;
   }
