@@ -242,7 +242,7 @@ h2 {
   }
 }
 
-.décoration-speciality-one {
+.decoration-speciality-one {
   z-index: 1;
   position: relative;
   top: 20px;
@@ -250,8 +250,18 @@ h2 {
 }
 
 @media (max-width: 768px) {
-  .décoration-speciality-one {
+  .decoration-speciality-one {
     display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .decoration-speciality-one {
+    width: 60%;
+    z-index: 1;
+    position: relative;
+    top: 20px;
+    left: 95px;
   }
 }
 
@@ -267,6 +277,15 @@ h2 {
   }
 }
 
+@media (max-width: 991px) {
+  .romarin-picture {
+    width: 40%;
+    position: relative;
+    bottom: 65px;
+    left: 100px;
+  }
+}
+
 .speciality-one-picture {
   position: relative;
   bottom: 290px;
@@ -276,6 +295,14 @@ h2 {
   .speciality-one-picture {
     position: relative;
     top: 0;
+  }
+}
+
+@media (width: 991px) {
+  .speciality-one-picture {
+    width: 50%;
+    position: relative;
+    bottom: 290px;
   }
 }
 
@@ -319,7 +346,7 @@ h2 {
   }
 }
 
-.décoration-speciality-two {
+.decoration-speciality-two {
   z-index: 2;
   position: relative;
   bottom: 180px;
@@ -327,8 +354,18 @@ h2 {
 }
 
 @media (max-width: 768px) {
-  .décoration-speciality-two {
+  .decoration-speciality-two {
     display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .decoration-speciality-two {
+    width: 30%;
+    z-index: 2;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
   }
 }
 
@@ -344,6 +381,15 @@ h2 {
   }
 }
 
+@media (max-width: 991px) {
+  .lemon-picture {
+    width: 30%;
+    position: relative;
+    bottom: 270px;
+    left: 300px;
+  }
+}
+
 .speciality-two-picture {
   position: relative;
   bottom: 470px;
@@ -353,6 +399,15 @@ h2 {
   .speciality-two-picture {
     position: relative;
     top: 0;
+  }
+}
+
+@media (width: 991px) {
+  .speciality-two-picture {
+    width: 50%;
+    position: relative;
+    bottom: 390px;
+    left: 380px;
   }
 }
 
@@ -401,15 +456,25 @@ h2 {
   }
 }
 
-.décoration-speciality-three {
+.decoration-speciality-three {
   z-index: 1;
   position: relative;
   bottom: 350px;
 }
 
 @media (max-width: 768px) {
-  .décoration-speciality-three {
+  .decoration-speciality-three {
     display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .decoration-speciality-three {
+    width: 30%;
+    z-index: 2;
+    position: relative;
+    bottom: 100px;
+    left: 280px;
   }
 }
 
@@ -421,6 +486,15 @@ h2 {
 @media (max-width: 768px) {
   .orange-picture {
     display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .orange-picture {
+    width: 30%;
+    position: relative;
+    bottom: 270px;
+    left: 450px;
   }
 }
 
@@ -436,6 +510,15 @@ h2 {
   }
 }
 
+@media (width: 991px) {
+  .speciality-three-picture {
+    width: 50%;
+    position: relative;
+    bottom: 390px;
+    right: 50px;
+  }
+}
+
 .title-speciality-Frolicking {
   position: relative;
   bottom: 800px;
@@ -445,6 +528,14 @@ h2 {
   .title-speciality-Frolicking {
     position: relative;
     top: 0;
+  }
+}
+
+@media (min-width: 991px) {
+  .title-speciality-Frolicking {
+    font-size: 36px;
+    position: relative;
+    bottom: 800px;
   }
 }
 
@@ -661,7 +752,7 @@ h5 {
   font-family: "Lao MN";
   color: #ff913b;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 37px;
 }
 
 @media (max-width: 768px) {
@@ -669,7 +760,7 @@ h5 {
     font-family: "Lao MN";
     color: #ff913b;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
